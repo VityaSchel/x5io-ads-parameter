@@ -1,6 +1,6 @@
 {
   "name": "@x5io/ads_parameter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "[x5.io] Утилита для параметра ?ads в URL",
   "main": "out/index.js",
   "type": "module",
@@ -13,7 +13,6 @@
   "author": "Viktor Shchelochkov <hi@hloth.dev> (https://hloth.dev/)",
   "license": "MIT",
   "dependencies": {
-    "dotenv": "^16.0.0",
     "js-cookie": "^3.0.1"
   },
   "devDependencies": {

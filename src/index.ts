@@ -21,7 +21,7 @@ export const hasCheckboxes = (companyActive: boolean): boolean => {
         return true
       }
     } else {
-      status = { wasVerified: true, previousResult: trune }
+      status = { wasVerified: true, previousResult: true }
       return true
     }
   } else {
