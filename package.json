@@ -1,6 +1,6 @@
 {
   "name": "@x5io/ads_parameter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "[x5.io] Утилита для параметра ?ads в URL",
   "main": "out/index.js",
   "type": "module",
