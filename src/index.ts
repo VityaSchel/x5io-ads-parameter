@@ -8,7 +8,7 @@ export const hasCheckboxes = (companyActive: boolean): boolean => {
     if (Cookies.get('visited') === undefined) {
       const params = new URLSearchParams(window.location.search)
       if (params.has('ads') && companyActive) {
-        Cookies.set('visited', 365)
+        Cookies.set('visited', String(Date.now()), { expires: 365 })
 
         const params = new URLSearchParams(window.location.search)
         // params.delete('ads')
