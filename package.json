@@ -1,12 +1,13 @@
 {
   "name": "@x5io/ads_parameter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "[x5.io] Утилита для параметра ?ads в URL",
-  "main": "out/index.js",
   "type": "module",
+  "main": "out/index.js",
+  "types": "out/index.d.ts",
   "scripts": {
     "prebuild": "del out/",
-    "build": "swc ./src -d ./out --copy-files",
+    "build": "swc ./src -d ./out --copy-files && tsc --emitDeclarationOnly",
     "start": "node out/index.js",
     "test": "jest"
   },
@@ -30,6 +31,6 @@
     "esbuild": "^0.15.14",
     "eslint": "^8.8.0",
     "ts-jest": "^29.0.3",
-    "typescript": "^4.8.3"
+    "typescript": "^5.1.6"
   }
 }
